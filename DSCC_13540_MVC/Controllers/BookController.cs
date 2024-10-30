@@ -9,7 +9,7 @@ namespace DSCC_13540_MVC.Controllers
 {
     public class BookController : Controller
     {
-        private readonly string BaseUrl = "http://localhost:7137/";
+        private readonly string BaseUrl = "http://ec2-54-159-22-189.compute-1.amazonaws.com/";
 
         // GET: BookController
         public async Task<ActionResult> Index()
